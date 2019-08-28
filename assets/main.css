@@ -1,0 +1,23 @@
+/* PIZZA CATALOG SECTION */
+
+.pizza-list-section {
+    text-align: center;
+}
+
+.pizza-list-section h2 {
+    color: lightcoral;
+    text-decoration: underline;
+
+}
+
+hr {
+    color: lightblue;
+}
+
+/* PIZZA COMPONENT */
+
+/*
+.pizza {
+
+}
+*/
