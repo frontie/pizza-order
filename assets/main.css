@@ -61,6 +61,7 @@
      
      .pizza-button {
          font-size: 40px;
+         color: white;
          border-style: solid;
          background-color: aqua;
          border-radius: 10px;
