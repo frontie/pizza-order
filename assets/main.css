@@ -16,6 +16,78 @@ hr {
 
 /* PIZZA COMPONENT */
 
+.pizza-panel{
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+}
+
+.image{
+    position: relative;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.pizza-image {
+    position: relative;
+}
+
+.pizza-discount{
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 4px;
+    background-color:darkcyan;
+    color: white;
+    font-weight: bold;
+}
+
+.pizza-description{
+    color: black;
+    font-size: 20px;
+}
+
+.pizza-button{
+    padding: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color:lightblue;
+    color: white;
+    font-weight: bold;  
+    float: left;
+    width: 30%;
+}
+
+.pizza-price {
+    float: right; 
+    text-align: left;
+    width: 60%;
+    margin-top: -15px;
+}
+
+.pizza-price-medium{
+    font-size: 15px;
+
+}
+
+.pizza-price-big{
+    font-size: 20px;
+    color: red;
+}
+
+.pizza-stock{
+    font-size: 15px;
+    color:black;
+}
+
+.clr{
+    clear:both;
+}
+
+
 /*
 .pizza {
 
