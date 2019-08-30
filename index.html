@@ -1,33 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Pizza Component</title>
     <link rel="stylesheet" href="./assets/main.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <section class="pizza-list-section">
-            <h2>Pizza catalog</h2>
-            <hr />
-            <!-- Pizza HTML in here -->
-            <!-- Pizza -->
-                <!-- Pizza Thumbnail -->
-                <!-- Pizza Discount Tag -->
-            <!-- Pizza Info -->
-                <!-- Pizza Name with clickable link -->
-                <!-- Pizza Description -->
-                <!-- Pizza Order Info -->
-                    <!-- Order button -->
-                    <!-- Pizza Prices -->
-                        <!-- Pizza-price medium -->
-                        <!-- Pizza-price big -->
-        </section>
+      <section class="pizza-list-section">
+        <h2>Pizza catalog</h2>
+        <hr />
+        <div class="pizza">
+          <div class="pizza__item">
+            <img
+              class="pizza__img"
+              src="assets/images/pizza-demo.jpeg"
+              alt=""
+            />
+            <span class="pizza__discount">Sale 30%</span>
+            <h2 class="pizza_name">PIZZA MATCHA BẠCH TUỘC SỐT TERIYAKI</h2>
+            <p class="pizza__description">
+              Đế bánh truyền thống vị Matcha (Trà xanh Nhật) kết hợp tôm Tempura
+              kèm xốt cheesy, tôm tươi, ớt chuông đỏ, rong biển và trứng cá hồi
+              tạo điểm nhấn đặc biệt trên bề mặt bánh làm nên hương vị tuyệt vời
+            </p>
+            <div class="pizza__order">
+              <button class="btn__order">ORDER</button>
+              <div class="pizza__price">
+                <div class="pizza__price--medium">
+                  <p>
+                    Medium:
+                    <span
+                      ><strong>319000<sup>d</sup></strong></span
+                    >
+                    <span class="stock"
+                      ><em><sub>14 left</sub></em></span
+                    >
+                  </p>
+                </div>
+                <div class="pizza__price--big">
+                  <p>
+                    Big:
+                    <span
+                      ><strong>519000<sup>d</sup></strong></span
+                    >
+                    <span class="stock"
+                      ><em><sub>54 left</sub></em></span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="clr"></div>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
