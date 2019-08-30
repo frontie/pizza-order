@@ -1,86 +1,23 @@
-     /* PIZZA CATALOG SECTION */
-     
-     .pizza-list-section {
-         text-align: center;
-     }
-     
-     .pizza-list-section h2 {
-         color: lightcoral;
-         text-decoration: underline;
-     }
-     
-     hr {
-         color: lightblue;
-     }
-     
-     .page {
-         width: 50%;
-         display: inline-block;
-     }
-     
-     .border {
-         padding: 20px 20px 20px 20px;
-         display: inline-block;
-         border-style: solid;
-         border-width: 2px;
-         border-color: gray;
-         border-radius: 10px;
-     }
-     
-     .pizza-img {
-         position: relative;
-         width: 100%;
-     }
-     
-     .label-discount {
-         background-color: aqua;
-         border-radius: 5px;
-         border-style: solid;
-         border-color: aqua;
-         color: white;
-         font-size: 30px;
-         position: absolute;
-         padding: 10px;
-         margin-left: -140px;
-     }
-     
-     .pizza-header {
-         color: lightcoral;
-         font-size: 50px;
-     }
-     
-     .pizza-description {
-         font-size: 30px;
-         color: grey;
-     }
-     
-     .pizza-order-wrap {
-         display: inline;
-         padding-top: 100px;
-     }
-     
-     .pizza-button {
-         font-size: 40px;
-         color: white;
-         border-style: solid;
-         background-color: aqua;
-         border-radius: 10px;
-         border-color: aqua;
-         padding: 20px;
-         float: left;
-         display: inline-nlock;
-     }
-     
-     .pizza-medium-size {
-         font-size: 25px;
-         display: inline;
-         color: grey;
-         padding-left: 50px;
-     }
-     
-     .pizza-big-size {
-         font-size: 30px;
-         display: inline-block;
-         color: lightcoral;
-         padding-left: 50px;
-     }
+/* PIZZA CATALOG SECTION */
+
+.pizza-list-section {
+    text-align: center;
+}
+
+.pizza-list-section h2 {
+    color: lightcoral;
+    text-decoration: underline;
+
+}
+
+hr {
+    color: lightblue;
+}
+
+/* PIZZA COMPONENT */
+
+/*
+.pizza {
+
+}
+*/
