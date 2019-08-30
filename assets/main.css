@@ -1,6 +1,6 @@
 /* PIZZA CATALOG SECTION */
 
-.pizza-list-section {
+/* .pizza-list-section {
     text-align: center;
 }
 
@@ -12,7 +12,7 @@
 
 hr {
     color: lightblue;
-}
+} */
 
 /* PIZZA COMPONENT */
 
@@ -21,3 +21,81 @@ hr {
 
 }
 */
+
+.pizza-list-section {
+    text-align: center;
+}
+
+.pizza-list-section h2 {
+    color: lightcoral;
+    text-decoration: underline;
+
+}
+
+.pizza-html{
+  
+    border-width: 2px;
+    border-radius: 10px;
+    color: lightblue;
+    border-style: solid;
+    margin: 0px 500px 0px 500px
+}
+
+.pizza{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+hr {
+    color: lightblue;
+}
+
+.discout{
+  
+  background-color:lightblue;
+  color: white;
+  margin-top:0px;
+  border-radius:10px;
+  border-width: 6px;
+  border-style: solid;
+  margin-left: 200px;
+  margin-right:8px;
+}
+
+.description{
+  margin: 30px 10px 10px 10px;
+  font-size: 15px;
+  color: green;
+}
+
+i{
+  font-size: 11px;
+  color:red;
+}
+
+.order-button{
+  margin-right:;
+  color:lightblue;
+}
+
+span{
+  margin: 0px 20px 0px 25px;
+  color: #006699;
+}
+
+.thumbnail{
+  position:relative;
+  display: inline-block;
+}
+.thumbnail .Sale{
+  background-color:lightblue;
+  color: white;
+  border-radius:10px;
+  border-width: 6px;
+  border-style: solid ;
+  position: absolute;
+  top: 0;
+  right:0;
+
+  
+}
