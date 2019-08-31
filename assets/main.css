@@ -1,8 +1,6 @@
   /* PIZZA CATALOG SECTION */
   
-  .pizza-list-section {
-      text-align: center;
-  }
+  .pizza-list-section {}
   
   .pizza-list-section h2 {
       color: lightcoral;
@@ -14,12 +12,13 @@
   }
   
   .page {
-      width: 50%;
+      width: 30%;
       display: inline-block;
+      padding: 10px;
   }
   
   .border {
-      padding: 20px 20px 20px 20px;
+      padding: 10px 10px 10px 10px;
       display: inline-block;
       border-style: solid;
       border-width: 2px;
@@ -40,43 +39,48 @@
       color: white;
       font-size: 30px;
       position: absolute;
-      padding: 10px;
-      margin-left: -140px;
+      margin-left: -120px;
   }
   
   .pizza-header {
       color: lightcoral;
-      font-size: 50px;
+      font-size: 30px;
+      text-align: center;
   }
   
   .pizza-description {
-      font-size: 30px;
+      font-size: 20px;
       color: grey;
-      padding-bottom: 100px;
+      padding-bottom: 10px;
+      text-align: justify;
   }
   
   .pizza-button {
-      font-size: 40px;
+      padding: 10px;
+      font-size: 30px;
       color: white;
       border-style: solid;
       background-color: aqua;
       border-radius: 10px;
       border-color: aqua;
-      padding: 20px;
-      float: left;
-      display: inline-nlock;
+      /* float: left; */
+      vertical-align: 10px;
+  }
+  
+  .price-tag {
+      display: inline-block;
+      margin: 0;
+      padding-left: 30px;
   }
   
   .pizza-medium-size {
-      font-size: 25px;
-      display: inline;
+      font-size: 20px;
       color: grey;
-      padding-left: 30px;
+      margin: 0;
   }
   
   .pizza-big-size {
-      font-size: 30px;
-      display: inline-block;
+      font-size: 25px;
       color: lightcoral;
-      padding-left: 30px;
+      margin: 0;
   }
