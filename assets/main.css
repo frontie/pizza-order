@@ -1,23 +1,86 @@
-/* PIZZA CATALOG SECTION */
-
-.pizza-list-section {
-    text-align: center;
-}
-
-.pizza-list-section h2 {
-    color: lightcoral;
-    text-decoration: underline;
-
-}
-
-hr {
-    color: lightblue;
-}
-
-/* PIZZA COMPONENT */
-
-/*
-.pizza {
-
-}
-*/
+  /* PIZZA CATALOG SECTION */
+  
+  .pizza-list-section {}
+  
+  .pizza-list-section h2 {
+      color: lightcoral;
+      text-decoration: underline;
+  }
+  
+  hr {
+      color: lightblue;
+  }
+  
+  .page {
+      width: 30%;
+      display: inline-block;
+      padding: 10px;
+  }
+  
+  .border {
+      padding: 10px 10px 10px 10px;
+      display: inline-block;
+      border-style: solid;
+      border-width: 2px;
+      border-color: gray;
+      border-radius: 10px;
+  }
+  
+  .pizza-img {
+      position: relative;
+      width: 100%;
+  }
+  
+  .label-discount {
+      background-color: aqua;
+      border-radius: 5px;
+      border-style: solid;
+      border-color: aqua;
+      color: white;
+      font-size: 30px;
+      position: absolute;
+      margin-top:
+  }
+  
+  .pizza-header {
+      color: lightcoral;
+      font-size: 30px;
+      text-align: center;
+  }
+  
+  .pizza-description {
+      font-size: 20px;
+      color: grey;
+      padding-bottom: 10px;
+      text-align: justify;
+  }
+  
+  .pizza-button {
+      padding: 10px;
+      font-size: 30px;
+      color: white;
+      border-style: solid;
+      background-color: aqua;
+      border-radius: 10px;
+      border-color: aqua;
+      /* float: left; */
+      vertical-align: 10px;
+  }
+  
+  .price-tag {
+      display: inline-block;
+      margin: 0;
+      padding-left: 30px;
+  }
+  
+  .pizza-medium-size {
+      font-size: 20px;
+      color: grey;
+      margin: 0;
+  }
+  
+  .pizza-big-size {
+      font-size: 25px;
+      color: lightcoral;
+      margin: 0;
+  }
