@@ -1,101 +1,66 @@
-/* PIZZA CATALOG SECTION */
-
-/* .pizza-list-section {
-    text-align: center;
+.web{
+    margin:10%;
 }
 
-.pizza-list-section h2 {
-    color: lightcoral;
-    text-decoration: underline;
-
+.images-page{
+  width: 45%;
+  display:inline-block;
 }
 
-hr {
-    color: lightblue;
-} */
-
-/* PIZZA COMPONENT */
-
-/*
-.pizza {
-
-}
-*/
-
-.pizza-list-section {
-    text-align: center;
+.info-page{
+  margin:30px;
+  width: 45%;
+  display:inline-block;
 }
 
-.pizza-list-section h2 {
-    color: lightcoral;
-    text-decoration: underline;
-
+.order{
+    display:block;
 }
 
-.pizza-html{
+.big-image{
+  margin: 0 0 10px 0;
+}
+
+.max{
+  margin: 0 0 0 12px;
+}
+
+.big-pizza{
+  width:100%;
+}
+
+.images{
+  width:100%;
   
-    border-width: 2px;
-    border-radius: 10px;
-    color: lightblue;
-    border-style: solid;
-    margin: 0px 500px 0px 500px
 }
 
-.pizza{
-  margin-top: 10px;
-  margin-bottom: 10px;
+.image-one{
+  width: 20%;
+  display:inline-block;
 }
 
-hr {
-    color: lightblue;
+
+.image-two{
+  width: 20%;
+  display:inline-block;
 }
 
-.discout{
-  
-  background-color:lightblue;
-  color: white;
-  margin-top:0px;
-  border-radius:10px;
-  border-width: 6px;
-  border-style: solid;
-  margin-left: 200px;
-  margin-right:8px;
+.image-three{
+  width: 20%;
+  display:inline-block;
 }
 
-.description{
-  margin: 30px 10px 10px 10px;
-  font-size: 15px;
-  color: green;
+.image-four{
+  width: 20%;
+  display:inline-block;
 }
 
-i{
-  font-size: 11px;
-  color:red;
+.fill{
+  margin-top:10px;
 }
 
-.order-button{
-  margin-right:;
-  color:lightblue;
-}
-
-span{
-  margin: 0px 20px 0px 25px;
-  color: #006699;
-}
-
-.thumbnail{
-  position:relative;
-  display: inline-block;
-}
-.thumbnail .Sale{
-  background-color:lightblue;
-  color: white;
-  border-radius:10px;
-  border-width: 6px;
-  border-style: solid ;
-  position: absolute;
-  top: 0;
-  right:0;
-
-  
+.border-bottom{
+  border-bottom: 2px solid black;
+  width:100%;
+  padding:0 0 20px 0;
 }
