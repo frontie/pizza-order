@@ -1,0 +1,53 @@
+.pizza-detail {   
+    padding: 50px;
+}
+.pizza-image {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.pizza-information {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding-left: 20px;
+    text-align: left;
+
+}
+
+.pizza-big-image {
+    display: inline-block;
+    width: 100%;
+}
+
+.pizza-small-image {
+    margin: 30px 10px; 
+    display: inline-block;
+    width: calc(100% / 4 - 40px);
+    margin-right: 20px;
+    box-sizing: border-box;
+
+}
+
+.image {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pizza-name {
+    color: lightcoral;
+}
+
+.pizza-description {
+    text-align: justify;
+    color: cadetblue;
+}
+
+
+
+
+
