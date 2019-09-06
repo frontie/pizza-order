@@ -23,9 +23,7 @@ hr {
     width: calc( 100% / 3 - 120px);
     padding: 10px;
     position: relative;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
+    border: 1px solid black;
     border-radius: 5px;
     box-shadow: 3px 3px 3px #666;
     -moz-box-shadow: 2px 2px 2px #666;
@@ -105,7 +103,7 @@ a {
     clear: both;
   }
 
-.pizza-price > p {
+.pizza-price  p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
